@@ -1,0 +1,39 @@
+.root{
+    padding: 10px 50px
+}
+
+.index{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.input__login{
+    width: 230px;
+    padding: 7px;
+}
+.input__password{
+    width: 230px;
+    padding: 7px;
+}
+.tasks__table-td,
+.tasks__table-th{
+    border: 1px solid #CCCCCC !important;
+}
+.buttons__button-auth,
+.buttons__button-logout{
+    margin: 7px;
+}
+.auth__button-auth{
+    margin: 7px;
+}
+.input--error{
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #ff0000;  
+}
+.error-message{
+    color: red;
+}
+.error-message:empty{
+    display: none;
+}
